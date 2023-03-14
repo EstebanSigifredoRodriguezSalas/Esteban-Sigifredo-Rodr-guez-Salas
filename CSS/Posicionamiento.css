@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+
+body#Principal{
+    background-image: url(image1.png);
+    background-size: 200px, 200px;
+}
+
+div.Centro{
+    padding-left: 10%;
+    padding-right: 20%;
+}
+
+div.Izquierda{
+    padding-right: 80%;
+    position: fixed;
+}
+
+p#NotaIzquierda{
+    color: #000;
+    font-size: small;
+    padding: 9px;
+    border-style: ridge;
+    font-weight: bold;
+    background: lightblue;
+    border-radius: 10px;
+}
+
+div.Derecha{
+    padding-left: 80%;
+    position: fixed;
+}
+
+aside#Nota1{
+    padding: 5px;
+    background-color: rgb(255, 144, 0)
+}
+
+section,header{
+    background: #F1F5F5;
+    padding: 10px;
+}
+
+h1{
+    font-size: large;
+    color: white;
+    background: rgb(50, 127, 235);
+    text-align: center;
+}
+
+h2{
+    color: darkblue;
+    border-bottom-color: darkslateblue;
+    border-bottom-style: double;
+}
+
+h3{
+    color: darkblue;
+}
+
+em.Termino{
+    color: darkblue;
+}
+
+em.Propiedad{
+    color: darkblue;
+    font-weight: bold;
+    font-style: normal;
+}
+
+em.Valor{
+    color: red;
+    font-weight: bold;
+    font-style: normal;
+}
+
+aside#Nota2{
+    padding: 5px;
+    background-color: lightblue;
+    border-color: blue;
+    border-style: solid;
+    border-width: thin;
+}
+
+p.Normal:hover,
+p.Inicial:hover,
+li.ItemNivel1:hover
+header:hover
+aside:hover{
+    font-size: large;
+}
+
+p.Icinial::first-letter{
+    font-size: large;
+    font-family: cursive;
+}
+
+p:hover,
+li:hover,
+header:hover{
+    background-color: white;
+}
+
+/*static - Posicionamiento que toma por defecto el elemento, y lo asigna el navegador.*/
+
+/*Permitir deslizar las cajas TODO lo posible hacia la IZQUIERDA o la DERECHA*/
+img#PFlotante{
+    float: inline-end;
+}
+
+/*No va a permitir mover la caja respecto a su contenedor y el resto de los elementos ignoran la nueva posición.
+Esta posición si respeta el espacio.*/
+
+.CajaPadre{
+    margin: 20px;
+    width: 500px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+}
+
+img#PFlotante{
+    position: absolute;
+    padding: 20px;
+}
+
+/*Relativo: No va a permitir mover una caja y después moverla desde su lugar original.*/
+img#PRelativo{
+    position: relative;
+}
+
+/*No me va a permitir mover la caja en donde su posición respecto a la pantalla del usuario siempre va ser la misma.*/
+img#PAbsoluto{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 0px;
+    right: 0px;
+}
+
+/*Fixed es una posición que NO respeta el espacio no me va a permitir mover la caja, en donde su posición respecto a la pantalla del usuario siempre va ser la mísma.*/
+
+img#PFijo{
+    position: fixed;
+}
+
+img#Centrado{
+    position: center;
+}
+
+img#PPaginado{
+    position: page;
+    top: 200px;
+    left: 200px;
+    width: 300px;
+}

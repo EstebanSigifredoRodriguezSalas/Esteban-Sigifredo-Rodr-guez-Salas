@@ -1,0 +1,54 @@
+* {  
+    /*Selector Universal*/
+    margin: 20px;
+}
+
+div {
+    /*Selector Etiqueta*/
+    background: rgb(244, 193, 99);
+}
+
+h3 {
+    background: rgb(85, 85, 213);
+}
+
+/*Selector Descendente*/
+
+div p {
+    background-color: whitesmoke
+}
+
+div p a {
+    background-color: blueviolet;
+}
+
+.Contenedor{
+    background-color: #D6BDFD;
+}
+
+#Parrafo{
+    font-size: 30px;
+}
+
+/*Selectores Avanzados
+
+Para input que principalmente
+son utilizados en formularios
+
+*/
+
+input[type="submit"]:hover {
+    background-color: #000;
+}
+
+input[type="text"]:hover {
+    background-color: #ccc;
+    text-decoration: underline;
+}
+
+/*Seleccione el elemento que esta
+directamente en la etiqueta*/
+
+div>p {
+    font-size: 24px;
+}

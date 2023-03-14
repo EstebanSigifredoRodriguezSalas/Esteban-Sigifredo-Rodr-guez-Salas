@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    <!--Tipo de Inputs-->
+    <form action="" method="">
+        <input type="text" name="" id="">
+        <br>
+        <br>
+        <input type="number" min="8" max="10" name="numero">
+        <br>
+        <br>
+        <input type="email">
+        <br>
+        <br>
+        <input type="password" placeholder="Contraseña">
+        <br>
+        <br>
+        <input type="range" min="5" max="10">
+        <br>
+        <br>
+        <input type="color" name="color">
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <form>
+        <input type="text" placeholder="Insertar nombre" maxlength="20" id="nombre" required>
+        <br>
+        <br>
+        <input type="email" placeholder="Correo electronico">
+        <br>
+        <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+        <br>
+        <br>
+        <label for="Pais">País</label>
+        <br>
+        <select name="Pais" id="Pais">
+            <option value="">---</option>
+            <option value="México">México</option>
+            <option value="Francia">Francia</option>
+            <option value="Alemania">Alemania</option>
+        </select>
+        <br>
+        <br>
+        <input type="radio" name="Género" value="Hombre" id="Hombre"><label for="Hombre">Hombre</label>
+        <br>
+        <input type="radio" name="Género" value="Mujer" id="Mujer"><label for="Hombre">Mujer</label>
+        <br>
+        <input type="radio" name="Género" value="Otro" id="Otro"><label for="Hombre">Otro</label>
+        <br>
+        <br>
+        <input type="checkbox" name="Género" id="Terminos Y Condiciones"><label for="Terminos Y Condiciones">Terminos Y Condiciones</label>
+        <br>
+        <input type="checkbox" name="Género" id="Publicidad"><label for="Publicidad">Aceptas qué te mandemos correo con las nuevas promociones</label>
+        <br>
+        <br>
+
+        <!--Implementar un formulario consiste en varios pasos
+        1.Escribir la interface del usuario
+        2.Implementar el procesamiento del lado del servidor
+        3.Configurar la interface de usuario para comunicarse con el servidor
+        -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

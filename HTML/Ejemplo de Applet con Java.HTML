@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <center><h1>ejemplos de aplet con java</h1></center>
+    <div>
+        Un <b>applet</b> conforme a lo que encontramos en las páginas de Oracle: "es una aplicación hecha en Java que se llama desde un documento HTML y se ejecuta dentro de un navegador”. Es necesario
+        recordar que el navegador debe tener instalado el plugin del la Máquina Virtual de Java (JVM).
+        
+        Máquina Virtual de Java: Es el programa que se encarga de ejecutar el bytecode generado por el compilador de Java.
+        Para entenderla foma e que s manejan os <b>applets</b> vamos a ver un ejemplo que presenta el clásico 
+        <b id="uno">Hola mundo</b>
+        <br>
+        <br>
+    </div>
+<div>
+    <br>
+    <br>
+    <div>
+        import java.awt.Graphics;
+        <br>
+        import javax.swing.JApplet;
+        <br>
+        public class HolaMundo extends JApplet {
+        <br>
+        public void paint (Graphics g) { 
+        <br>
+        super.paint (g);
+        <br>
+        g.drawString("Hola mundo!!",10,20);
+        <br>
+        }
+        <br>
+        }
+    </div>
+<br>
+<br>
+¡Como puede observarse la única variable que uiza ete applet es g que representa un objeto de la case Graphics sobre el cual vamos a dibujar la cadena de texto que resua de ejecutar el apple 
+Para ejecutarlo es necesario mandarlo lamar desde una página HTML utilizando la etiqueta <appler> o la etiqueta <object>. En el primer caso el archivo «class se declara en el atributo code, <b> en el
+segundo se declara un elemento param donde sus atributos name será code y value será el nombre del applet Cabe mencionar que en el segundo caso es necesario declarar otros elemento
+súparam adicionales y en elemento object declarar algunos parámetros como clossid, codebase y type. </b>  En ambos casos es necesario declarar el tamaño dela ventana del applet con los 
+Parámetros widlh y height
+<br>
+La <b> salida del programa ser </b> ota mundo!
+
+Todos sabemos que este es un ejemplo muy sencilo y lo habremos viso ya bastantes veces, probablemente cuando Dennis N-Rirchi lo escribió en lenguaje C, jamás imaginó que seíautlizado
+como ejemplo inicial de tatos lenguajes de programación.</div>
+
+
+
+<style>
+#uno{
+    background-color: yellow;
+}
+</style>
+</html>

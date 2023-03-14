@@ -1,0 +1,21 @@
+.Explicacion {
+    display: none; /* Oculta la explicación por defecto */
+    position: absolute; /* Posiciona la explicación encima del campo */
+    margin-top: -25px; /* Ajusta la posición de la explicación */
+    background-color: #00ffea; /* Fondo blanco */
+    border: 1px solid #000000; /* Borde gris */
+    color: white; /* Color de la letra */
+    padding: 5px; /* Espacio alrededor del texto */
+    font-size: 0.8em; /* Tamaño de letra más pequeño */
+}
+
+/* Estilo para los campos */
+input {
+    display: block; /* Muestra los campos en bloques */
+    margin-bottom: 10px; /* Espacio entre los campos */
+}
+
+/* Estilo para los campos cuando el mouse pasa sobre ellos */
+input:hover + .explicacion {
+    display: block; /* Muestra la explicación */
+}

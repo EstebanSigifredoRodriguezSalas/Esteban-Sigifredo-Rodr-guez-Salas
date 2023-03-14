@@ -1,0 +1,42 @@
+/*
+body{
+    background: rgb(255, 255, 255);
+}
+
+1-Arriba
+2-Abajo
+3-Izquierda
+4-Derecha
+
+1-Valor - para los 4 Lados
+
+h1{
+    Efecto Difuminado
+    text-shadow: 2px 2px 5px red;
+}
+
+.Profundidad{
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+}
+
+h3{
+   text-shadow: 5px 5px 5px #FF9801; 
+}
+*/
+.Card{
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+.Header{
+    color: #fff;
+    background:  rgba(143, 225, 143);
+    font-size: 35px;
+    padding: 10px;
+}
+
+.Contenedor{
+    padding: 10px;
+}

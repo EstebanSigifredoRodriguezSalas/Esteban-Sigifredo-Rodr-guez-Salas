@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif; /* Estilo de fuente */
+    margin: 20px; /* Elimina el margen predeterminado del cuerpo */
+    padding: 20px; /* Elimina el relleno predeterminado del cuerpo */
+}
+
+.Nombre {
+    background-color: green; /* Color de fondo del encabezado */
+    color: #fff; /* Color de texto del encabezado */
+    padding: 5px; /* Espacio alrededor del encabezado */
+    text-align: center; /* Centra el texto del encabezado */
+}
+
+.Año {
+    background-color: #b41c1c; /* Color de fondo del encabezado */
+    color: #fff; /* Color de texto del encabezado */
+    padding: 1px; /* Espacio alrededor del encabezado */
+    text-align: center; /* Centra el texto del encabezado */
+}
+
+h1 {
+    font-size: 2em; /* Tamaño de letra del título principal */
+    margin-bottom: 1; /* Elimina el margen inferior del título principal */
+}
+
+h2 {
+    font-size: 1em; /* Tamaño de letra de los subtítulos */
+    margin-bottom: 1; /* Elimina el margen inferior del título principal */
+}
+
+p {
+    margin-top: 0; /* Elimina el margen superior del párrafo */
+}
+
+.imagen {
+    float: left; /* Flota la imagen a la izquierda del texto */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
+
+.texto {
+    margin-left: 200px; /* Espacio a la izquierda del texto */
+}

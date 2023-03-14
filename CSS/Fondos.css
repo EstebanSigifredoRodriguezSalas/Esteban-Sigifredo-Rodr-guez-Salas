@@ -1,0 +1,12 @@
+/*Backgroud*/
+body {
+    /*background: url(MessiChiquito.jpeg);
+    background-repeat: no-repeat;/*Para que la imgagen no se repita en su Eje X y/o Eje Y
+    background-size: contain;/*Cubre el 100% de mi Contenido Vertical y el Cover,
+    cubre todo mi sitio web
+    background-position: center;
+    background-attachment: scroll;
+    */
+    background: url(MessiChiquito.jpeg) no-repeat center fixed;
+    background-size: 200px;
+}
